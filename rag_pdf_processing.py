@@ -1,8 +1,6 @@
 import os
-import fitz
 import pypdf
 import warnings
-import PyPDF2
 import chromadb
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
